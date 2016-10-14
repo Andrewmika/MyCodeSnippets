@@ -2,40 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asconfe</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// 设置元素控件
-- (void)configElements {
-    
-    // 设置数据
-    [self configData];
-
-    // 设置约束
-    [self configConstraints];
-}
-
-// 设置数据
-- (void)configData {
-    
-}
-
-// 设置约束
-- (void)configConstraints {
-    
-}
-
-</string>
+	<string>__weak typeof(self) weakSelf = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>68622EAC-B516-43EB-925B-8720FB0BFCD2</string>
+	<string>584C2D06-AB77-4D4E-938F-92AC573F9DC9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>asBlocWeak</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ConfigElements-IMP</string>
+	<string>Block Weak Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

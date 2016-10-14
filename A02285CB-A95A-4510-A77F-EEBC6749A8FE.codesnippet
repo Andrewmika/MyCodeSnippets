@@ -3,39 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asconfe</string>
+	<string>asRP</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// 设置元素控件
-- (void)configElements {
+	<string>- (void)prepareRequest {
+    self.action = @"&lt;##&gt;";
+    self.params[&lt;##&gt;] = &lt;##&gt;;
     
-    // 设置数据
-    [self configData];
-
-    // 设置约束
-    [self configConstraints];
+    [super prepareRequest];
 }
 
-// 设置数据
-- (void)configData {
-    
-}
+- (BaseResponse *)prepareResponse:(NSDictionary *)data {
+    &lt;##&gt; *response = [[&lt;##&gt; alloc] init];
+    response.message = [super prepareResponse:data].message;
+    if ([data objectForKey:VAR_DATA] != [NSNull null] &amp;&amp; [data objectForKey:VAR_DATA] != nil) {
+        NSDictionary *dict = [data objectForKey:VAR_DATA];
 
-// 设置约束
-- (void)configConstraints {
-    
-}
-
-</string>
+    }
+    return response;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>68622EAC-B516-43EB-925B-8720FB0BFCD2</string>
+	<string>A02285CB-A95A-4510-A77F-EEBC6749A8FE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ConfigElements-IMP</string>
+	<string>RequestPrepare</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

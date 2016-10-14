@@ -3,39 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asconfe</string>
+	<string>asWeakSelf</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// 设置元素控件
-- (void)configElements {
-    
-    // 设置数据
-    [self configData];
-
-    // 设置约束
-    [self configConstraints];
-}
-
-// 设置数据
-- (void)configData {
-    
-}
-
-// 设置约束
-- (void)configConstraints {
-    
-}
-
+	<string>    __weak typeof(self) weakSelf = self;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>68622EAC-B516-43EB-925B-8720FB0BFCD2</string>
+	<string>C3C18AB9-83C0-461F-9128-A46475C8BED8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ConfigElements-IMP</string>
+	<string>BlockWeakSelf</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asconfe</string>
+	<string>asss</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -14,7 +14,7 @@
     
     // 设置数据
     [self configData];
-
+    
     // 设置约束
     [self configConstraints];
 }
@@ -28,14 +28,13 @@
 - (void)configConstraints {
     
 }
-
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>68622EAC-B516-43EB-925B-8720FB0BFCD2</string>
+	<string>9C3723DF-8056-4D1F-961B-EF34EFB2C900</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ConfigElements-IMP</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

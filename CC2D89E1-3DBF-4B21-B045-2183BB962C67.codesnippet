@@ -3,39 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asconfe</string>
+	<string>asPragmaMark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// 设置元素控件
-- (void)configElements {
-    
-    // 设置数据
-    [self configData];
+	<string>
+#pragma mark - Interface Method
 
-    // 设置约束
-    [self configConstraints];
-}
+#pragma mark - Private Method
 
-// 设置数据
-- (void)configData {
-    
-}
+#pragma mark - Event Response
 
-// 设置约束
-- (void)configConstraints {
-    
-}
+#pragma mark - Delegate
+
+#pragma mark - Override
+
+#pragma mark - Init
 
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>68622EAC-B516-43EB-925B-8720FB0BFCD2</string>
+	<string>CC2D89E1-3DBF-4B21-B045-2183BB962C67</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ConfigElements-IMP</string>
+	<string>asPragmaMarkSnippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,39 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asconfe</string>
+	<string>asconfSwift</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// 设置元素控件
-- (void)configElements {
+	<string>    // 初始化控件，元素
+    private func configCompnents() {
     
-    // 设置数据
-    [self configData];
-
-    // 设置约束
-    [self configConstraints];
-}
-
-// 设置数据
-- (void)configData {
+        
+        configConstraints()
+    }
     
-}
-
-// 设置约束
-- (void)configConstraints {
+    // 配置约束
+    private func configConstraints() {
     
-}
-
+    }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>68622EAC-B516-43EB-925B-8720FB0BFCD2</string>
+	<string>8A8B3CD3-64B9-4D99-905D-34A69C24F5C9</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ConfigElements-IMP</string>
+	<string>swift configComp</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

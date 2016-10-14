@@ -3,39 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asconfe</string>
+	<string>asRD</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// 设置元素控件
-- (void)configElements {
-    
-    // 设置数据
-    [self configData];
+	<string>#pragma mark - Request Delegate
 
-    // 设置约束
-    [self configConstraints];
+- (void)requestSucceed:(BaseRequest *)request withResponse:(BaseResponse *)response {
+
 }
 
-// 设置数据
-- (void)configData {
-    
-}
+- (void)requestFail:(BaseRequest *)request withResponse:(BaseResponse *)response {
 
-// 设置约束
-- (void)configConstraints {
-    
 }
-
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>68622EAC-B516-43EB-925B-8720FB0BFCD2</string>
+	<string>01A82078-1DDE-43D9-BD7A-3F4FF3EE4153</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ConfigElements-IMP</string>
+	<string>RequestDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
