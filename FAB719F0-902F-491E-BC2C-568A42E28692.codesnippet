@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    NSLog(@"-------------------&gt;%@",NSStringFromSelector(_cmd));
+	<string>    NSLog(@"---&gt;%@",NSStringFromSelector(_cmd));
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FAB719F0-902F-491E-BC2C-568A42E28692</string>
